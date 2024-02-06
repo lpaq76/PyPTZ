@@ -1,5 +1,5 @@
-from onvif_control import ONVIFCamera
-from vapix_control import VAPIXCamera
-from sunapi_control import SUNAPICamera
+from onvif_control import *
+from vapix_control import *
+from sunapi_control import *
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
