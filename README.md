@@ -2,7 +2,7 @@
 
 This library is designed to control PTZ cameras using the ONVIF, VAPIX and SUNAPI.
 
-**ONVIF** (Open Network Video Interface Forum)** is a global and open industry forum with the goal of facilitating the
+**ONVIF (Open Network Video Interface Forum)** is a global and open industry forum with the goal of facilitating the
 development and use of a global open standard for the interface of physical IP-based security products.
 ONVIF creates a standard for how IP products within video surveillance and other physical security areas can communicate
 with each other.
