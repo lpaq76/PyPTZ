@@ -21,7 +21,7 @@ pip install pyptz
 ## ONVIF
 
 ```python
-from pyptz import ONVIFCamera
+from pyptz.onvif_control import ONVIFCamera
 
 onvif_camera = ONVIFCamera('192.168.1.100', '88', 'admin', 'password')
 pan, tilt, zoom = onvif_camera.get_ptz_status()
@@ -31,7 +31,7 @@ print(pan, tilt, zoom)
 ## VAPIX
 
 ```python
-from pyptz import VAPIXCamera
+from pyptz.vapix_control import VAPIXCamera
 
 vapix_camera = VAPIXCamera('192.168.1.100', 'admin', 'password')
 pan, tilt, zoom = vapix_camera.get_ptz_status()
@@ -41,7 +41,7 @@ print(pan, tilt, zoom)
 ## SUNAPI
 
 ```python
-from pyptz import SUNAPICamera
+from pyptz.sunapi_control import SUNAPICamera
 
 sunapi_camera = SUNAPICamera('192.168.1.100', 'admin', 'password')
 pan, tilt, zoom = sunapi_camera.get_ptz_status()[:3]
