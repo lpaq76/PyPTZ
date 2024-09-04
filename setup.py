@@ -31,6 +31,6 @@ setuptools.setup(name='pyptz',
                  keywords=['ONVIF', 'VAPIX', 'SUNAPI'],
                  python_requires='>=3.6',
                  install_requires=['urllib3==1.26.18',
-                                   'requests==2.31.0',
+                                   'requests==2.32.2',
                                    'onvif-zeep==0.2.12',
                                    'beautifulsoup4==4.12.3'])
