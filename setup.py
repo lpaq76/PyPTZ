@@ -30,7 +30,7 @@ setuptools.setup(name='pyptz',
                               "Operating System :: OS Independent", ],
                  keywords=['ONVIF', 'VAPIX', 'SUNAPI'],
                  python_requires='>=3.6',
-                 install_requires=['urllib3==1.26.18',
+                 install_requires=['urllib3==1.26.19',
                                    'requests==2.31.0',
                                    'onvif-zeep==0.2.12',
                                    'beautifulsoup4==4.12.3'])
